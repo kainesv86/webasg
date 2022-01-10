@@ -34,7 +34,7 @@ public class Something extends HttpServlet {
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
             out.println("Hung an cut");
-
+            out.println("Hung an cut 23456");
         }
     }
 
