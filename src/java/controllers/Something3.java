@@ -1,6 +1,7 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
 package controllers;
 
@@ -14,10 +15,10 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author kaine
+ * @author DELL
  */
-@WebServlet(name = "Something", urlPatterns = {"/Something"})
-public class Something extends HttpServlet {
+@WebServlet(name = "Something3", urlPatterns = {"/Something3"})
+public class Something3 extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -33,8 +34,15 @@ public class Something extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
-            out.println("Hung an cut");
-
+            out.println("<!DOCTYPE html>");
+            out.println("<html>");
+            out.println("<head>");
+            out.println("<title>Servlet Something3</title>");            
+            out.println("</head>");
+            out.println("<body>");
+            out.println("<h1>Servlet Something3 at " + request.getContextPath() + "</h1>");
+            out.println("</body>");
+            out.println("</html>");
         }
     }
 
