@@ -35,6 +35,7 @@ public class Something extends HttpServlet {
             /* TODO output your page here. You may use following sample code. */
             out.println("Hung an cut");
             out.println("Hung an cut 23456");
+            out.println("Hung an cut cho");
         }
     }
 
